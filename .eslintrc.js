@@ -8,5 +8,6 @@ module.exports = {
     semi: [2, 'always'],
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off"
   }
 };
