@@ -3,9 +3,11 @@ function Header() {
 
     return (
       <header>
-        <div>
+        <h1>
+        <a data-testid="link" href="/">
           Disha Barua
-        </div>
+        </a>
+        </h1>
         <nav>
           <a href="/about">About me</a>
           <a href="/portfolio">Portfolio</a>
