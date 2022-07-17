@@ -32,8 +32,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
-Project {
-  flex: 1 0 34%; 
+.projectContainer {
+  flex-basis: 34%;
+  margin: 2%;
 }

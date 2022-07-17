@@ -19,7 +19,17 @@ function App() {
   const surf = {
     name: "Surf Report",
     description: "MERN Stack",
-    imgName: "github.png"
+    imgName: "html.png",
+    gitLink: "",
+    deployLink: ""
+  };
+
+  const html = {
+    name: "HTML Portfolio",
+    description: "Plain CSS and HTML",
+    imgName: "html.png",
+    gitLink: "https://github.com/Disha2022/disha-portfolio",
+    deployLink: "https://disha2022.github.io/disha-portfolio/"
   };
 
   return (
@@ -43,13 +53,13 @@ function App() {
                 project={surf}
               ></Project>
               <Project
-                project={surf}
+                project={html}
               ></Project>
               <Project
-                project={surf}
+                project={html}
               ></Project>
               <Project
-                project={surf}
+                project={html}
               ></Project>
             </div>
           </>
