@@ -15,29 +15,31 @@ function Navigation(props) {
   }, [currentPage]);
 
   return (
-      <nav>
-        <ul>
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setCurrentPage({name: "about me"})}>
+    <nav>
+      <ul>
+        <li className="mx-2">
+          <h1>
+            <a data-testid="about" href="#about" onClick={() => setCurrentPage({ name: "about me" })}>
               Disha Barua
             </a>
-          </li>
-          {pages.map((category) => (
-            <li
-              className={`${currentPage.name === category.name && 'navActive'}`}
-              key={category.name}
+          </h1>
+        </li>
+        {pages.map((category) => (
+          <li
+            className={`${currentPage.name === category.name && 'navActive'}`}
+            key={category.name}
+          >
+            <a href="#about"
+              onClick={() => {
+                setCurrentPage(category);
+              }}
             >
-              <span
-                onClick={() => {
-                  setCurrentPage(category);
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </nav>
+              {capitalizeFirstLetter(category.name)}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 }
 
