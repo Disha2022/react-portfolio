@@ -1,6 +1,7 @@
+import "./Resume.css";
 function Resume() {
     return (
-        <>
+        <div className="resumeContainer">
             <h2>
                 Resume
             </h2>
@@ -30,7 +31,7 @@ function Resume() {
                 <li>MongoDB</li>
                 <li>MySQL</li>
             </ul>
-        </>
+        </div>
     );
 }
 

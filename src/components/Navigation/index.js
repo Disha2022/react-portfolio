@@ -15,10 +15,8 @@ function Navigation(props) {
   }, [currentPage]);
 
   return (
-    <header className="flex-row px-1">
-
       <nav>
-        <ul className="flex-row">
+        <ul>
           <li className="mx-2">
             <a data-testid="about" href="#about" onClick={() => setCurrentPage({name: "about me"})}>
               Disha Barua
@@ -26,7 +24,7 @@ function Navigation(props) {
           </li>
           {pages.map((category) => (
             <li
-              className={`mx-1 ${currentPage.name === category.name && 'navActive'}`}
+              className={`${currentPage.name === category.name && 'navActive'}`}
               key={category.name}
             >
               <span
@@ -40,7 +38,6 @@ function Navigation(props) {
           ))}
         </ul>
       </nav>
-    </header>
   );
 }
 

@@ -1,4 +1,4 @@
-ul {
+footer ul {
     list-style: none;
 
     display: flex;
@@ -10,10 +10,10 @@ ul {
     height: 10%;
 } */
 
-a { 
+footer a { 
     display: block;
 }
-img {
+footer img {
     height: 40px;
     width: 40px;
 }
