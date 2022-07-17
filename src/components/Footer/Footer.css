@@ -1,14 +1,16 @@
+footer{
+    padding: 1%;
+}
+
 footer ul {
+    padding-left: 0;
+    margin-left: 0;
     list-style: none;
 
     display: flex;
     justify-content: center;
     gap: 5%;
 }
-/* li {
-    width: 10%;
-    height: 10%;
-} */
 
 footer a { 
     display: block;

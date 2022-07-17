@@ -11,6 +11,10 @@
   --spacing-five: calc(2.5rem);
 }
 
+main {
+  margin: 5%;
+}
+
 .App-logo {
   height: 30vmin;
   pointer-events: none;
