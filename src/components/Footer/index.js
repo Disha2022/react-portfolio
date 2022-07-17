@@ -7,20 +7,20 @@ function Footer() {
     <footer>
       <ul>
         <li>
-          <a href="https://github.com">
-            <img src={github} alt="github.com" />
+          <a href="https://github.com/Disha2022">
+            <img src={github} alt="Disha's github.com" />
           </a>
         </li>
 
         <li>
-          <a href="https://www.linkedin.com">
-            <img src={linkedIn} alt="linkedin.com" />
+          <a href="https://www.linkedin.com/in/dishaaa/">
+            <img src={linkedIn} alt="Disha's linkedin.com" />
           </a>
         </li>
 
         <li>
-          <a href="https://stackoverflow.com">
-            <img src={stack} alt="stackoverflow.com" />
+          <a href="https://stackoverflow.com/users/19567785/disha-barua">
+            <img src={stack} alt="Disha's stackoverflow.com" />
           </a>
         </li>
 
