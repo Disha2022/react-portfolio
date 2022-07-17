@@ -7,3 +7,24 @@
     height: 30px;
     width: 30px;
 }
+
+.projectContainer {
+    position: relative;
+}
+
+.textContainer {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+   1px -1px 0 #000;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20%;
+    text-align: center;
+    color: lightgreen;
+}
+
+.gitImg{
+    padding-left: 10px;
+}
