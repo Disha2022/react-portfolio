@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+/* li {
+    width: 10%;
+    height: 10%;
+} */
+
+a { 
+    display: block;
+}
+img {
+    height: 40px;
+    width: 40px;
+}

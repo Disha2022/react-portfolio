@@ -4,13 +4,14 @@ import { useState } from 'react';
 import About from './components/pages/About';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
+import Footer from './components/Footer';
 function App() {
   const [pages] = useState([
-    {name: 'about me'},
-    {name: 'portfolio'},
-    { name: 'contact'},
+    { name: 'about me' },
+    { name: 'portfolio' },
+    { name: 'contact' },
     { name: 'resume' },
-]);
+  ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
   return (
@@ -32,6 +33,7 @@ function App() {
           </>
         }
       </main>
+      <Footer></Footer>
     </div>
   );
 }
