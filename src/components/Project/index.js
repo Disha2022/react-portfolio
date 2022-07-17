@@ -1,4 +1,4 @@
-
+// used multiple times in the Portfolio section
 const Project = ({ project }) => {
   const { name, description, imgName} = project;
 

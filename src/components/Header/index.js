@@ -1,19 +1,19 @@
-import "./Header.css";
-function Header() {
+import Navigation from "../Navigation";
+function Header(props) {
+  const {
+    pages = [],
+    setCurrentPage,
+    currentPage,
+  } = props;
+
 
     return (
       <header>
-        <h1>
-        <a data-testid="link" href="/">
-          Disha Barua
-        </a>
-        </h1>
-        <nav>
-          <a href="/about">About me</a>
-          <a href="/portfolio">Portfolio</a>
-          <a href="/contact">Contact</a>
-          <a href="/resume">Resume</a>
-        </nav>
+        <Navigation
+          pages={pages}
+          setCurrentPage={setCurrentPage}
+          currentPage={currentPage}
+        ></Navigation>
       </header>
     );
   }
