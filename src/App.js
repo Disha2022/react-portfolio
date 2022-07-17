@@ -5,6 +5,7 @@ import About from './components/pages/About';
 import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
+import Project from "./components/Project";
 function App() {
   const [pages] = useState([
     { name: 'about me' },
@@ -14,6 +15,13 @@ function App() {
   ]);
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
+
+  const surf = {
+    name: "Surf Report",
+    description: "MERN Stack",
+    imgName: "github.png"
+  };
+
   return (
     <div className="App">
       <Header
@@ -30,6 +38,20 @@ function App() {
             <h2>
               Portfolio
             </h2>
+            <div className="portfolio">
+              <Project
+                project={surf}
+              ></Project>
+              <Project
+                project={surf}
+              ></Project>
+              <Project
+                project={surf}
+              ></Project>
+              <Project
+                project={surf}
+              ></Project>
+            </div>
           </>
         }
       </main>
