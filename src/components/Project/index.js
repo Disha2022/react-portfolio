@@ -3,10 +3,10 @@ const Project = ({ project }) => {
   const { name, description, imgName} = project;
 
   return (
-      <div className="container">
+      <div className="projectContainer">
         <h3 className="title">{name}</h3>
         <img
-          src={require(`../../assets/large/${imgName}.jpg`).default}
+          src={require(`../../assets/${imgName}`).default}
           alt="current category"
         />
         <p>{description}</p>
