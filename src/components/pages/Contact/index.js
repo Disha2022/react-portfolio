@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./Contact.css";
 function Contact() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -87,7 +87,7 @@ function Contact() {
                         return <p key={index}>{name}</p>;
                     })
                 }
-                <input type="submit" value="Submit" disabled />
+                <button type="button" value="Submit" disabled>Submit</button>
             </form>
         </>
     );
