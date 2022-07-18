@@ -16,12 +16,12 @@ function App() {
 
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
-  const surf = {
-    name: "Surf Report",
-    description: "MERN Stack",
-    imgName: "html.png",
-    gitLink: "",
-    deployLink: ""
+  const weather = {
+    name: "Weather Dashboard",
+    description: "jQuery, APIs",
+    imgName: "weather.jpg",
+    gitLink: "https://github.com/Disha2022/weather_dashboard",
+    deployLink: "https://disha2022.github.io/weather_dashboard/"
   };
 
   const html = {
@@ -30,6 +30,35 @@ function App() {
     imgName: "html.png",
     gitLink: "https://github.com/Disha2022/disha-portfolio",
     deployLink: "https://disha2022.github.io/disha-portfolio/"
+  };
+
+  const restaurant = {
+    name: "Restaurant Finder",
+    description: "Tailwinds CSS, Google APIs",
+    imgName: "restaurant.jpg",
+    gitLink: "https://github.com/Disha2022/Interactive_Front_End_Project",
+    deployLink: "https://disha2022.github.io/Interactive_Front_End_Project/"
+  };
+  const schedule = {
+    name: "Work Day Scheduler",
+    description: "Bootstrap, local storage",
+    imgName: "schedule.jpg",
+    gitLink: "https://github.com/Disha2022/work_day_scheduler",
+    deployLink: "https://disha2022.github.io/work_day_scheduler/"
+  };
+  const runbuddy = {
+    name: "Run Buddy Demo",
+    description: "HTML, CSS, forms",
+    imgName: "runbuddy.jpg",
+    gitLink: "https://github.com/Disha2022/run-buddy",
+    deployLink: "https://disha2022.github.io/run-buddy/"
+  };
+  const techblog = {
+    name: "Rodde-it Tech Blog",
+    description: "expressJS, MySQL, authentication",
+    imgName: "techblog.jpg",
+    gitLink: "https://github.com/Disha2022/rodde-it",
+    deployLink: "https://rodde-it.herokuapp.com/"
   };
 
   return (
@@ -50,16 +79,22 @@ function App() {
             </h2>
             <div className="portfolio">
               <Project
-                project={surf}
+                project={techblog}
               ></Project>
               <Project
                 project={html}
               ></Project>
               <Project
-                project={html}
+                project={weather}
               ></Project>
               <Project
-                project={html}
+                project={restaurant}
+              ></Project>
+              <Project
+                project={runbuddy}
+              ></Project>
+              <Project
+                project={schedule}
               ></Project>
             </div>
           </>
