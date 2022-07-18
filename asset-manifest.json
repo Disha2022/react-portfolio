@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f8e5609d.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.055367aa.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.055367aa.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.0a550fcb.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.0a550fcb.js.map",
+    "static/js/2.0fbca9af.chunk.js": "/react-portfolio/static/js/2.0fbca9af.chunk.js",
+    "static/js/2.0fbca9af.chunk.js.map": "/react-portfolio/static/js/2.0fbca9af.chunk.js.map",
+    "static/js/3.142ee1a1.chunk.js": "/react-portfolio/static/js/3.142ee1a1.chunk.js",
+    "static/js/3.142ee1a1.chunk.js.map": "/react-portfolio/static/js/3.142ee1a1.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.f8e5609d.chunk.css.map": "/react-portfolio/static/css/main.f8e5609d.chunk.css.map",
+    "static/js/2.0fbca9af.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.0fbca9af.chunk.js.LICENSE.txt",
+    "static/media/disha.16bfc7ab.jpg": "/react-portfolio/static/media/disha.16bfc7ab.jpg",
+    "static/media/html.png": "/react-portfolio/static/media/html.e040fa10.png",
+    "static/media/restaurant.jpg": "/react-portfolio/static/media/restaurant.7d1ce0d1.jpg",
+    "static/media/runbuddy.jpg": "/react-portfolio/static/media/runbuddy.000e1b5f.jpg",
+    "static/media/schedule.jpg": "/react-portfolio/static/media/schedule.f6fce804.jpg",
+    "static/media/stack.f9f6d66d.png": "/react-portfolio/static/media/stack.f9f6d66d.png",
+    "static/media/techblog.jpg": "/react-portfolio/static/media/techblog.fb1bef3e.jpg",
+    "static/media/weather.jpg": "/react-portfolio/static/media/weather.f31c7f5a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a550fcb.js",
+    "static/js/2.0fbca9af.chunk.js",
+    "static/css/main.f8e5609d.chunk.css",
+    "static/js/main.055367aa.chunk.js"
+  ]
+}
