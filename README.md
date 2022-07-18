@@ -28,6 +28,7 @@ npm start
 
 ## Demo Screenshot
 
+<img width="915" alt="demo screenshot" src="https://user-images.githubusercontent.com/99584117/179441042-801ad6c4-ed5b-4326-89db-3dab0a8d502d.png">
 
 
 ## Contributing Guidelines
