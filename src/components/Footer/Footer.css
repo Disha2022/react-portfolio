@@ -1,4 +1,4 @@
-footer{
+footer {
     padding: 1%;
 }
 
@@ -12,14 +12,16 @@ footer ul {
     gap: 5%;
 }
 
-footer a { 
+footer a {
     display: block;
 }
+
 footer img {
     height: 40px;
     width: 40px;
-    opacity: 1;
-}
-footer img:hover {
     opacity: .7;
+}
+
+footer img:hover {
+    opacity: 1;
 }
