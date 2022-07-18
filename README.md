@@ -6,7 +6,7 @@
 
 ## Description
 
- This NodeJS project is a portfolio built with React and hosted on github pages. I can now use this portfolio to demonstrate my knowledge of React as well as my other javascript projects. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ This NodeJS project is a portfolio built with React and hosted on github pages. I can now use this portfolio to demonstrate my knowledge of React as well as my other javascript projects. This project is hosted on [github pages](https://disha2022.github.io/react-portfolio). This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Table of Contents
 
