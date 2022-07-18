@@ -87,7 +87,7 @@ function Contact() {
                         return <p key={index}>{name}</p>;
                     })
                 }
-                <button type="button" value="Submit" disabled>Submit</button>
+                <button type="button" value="Submit" disabled>Temporarily Disabled</button>
             </form>
         </>
     );
