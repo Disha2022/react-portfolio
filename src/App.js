@@ -60,6 +60,13 @@ function App() {
     gitLink: "https://github.com/Disha2022/rodde-it",
     deployLink: "https://rodde-it.herokuapp.com/"
   };
+  const mern = {
+    name: "Team Workout - Get Fit!",
+    description: "MERN, graphQL",
+    imgName: "mern.png",
+    gitLink: "https://github.com/Disha2022/mern_spa_project",
+    deployLink: "https://mern-workout-tracker.herokuapp.com"
+  };
 
   return (
     <div className="App">
@@ -80,6 +87,9 @@ function App() {
             <div className="portfolio">
               <Project
                 project={techblog}
+              ></Project>
+              <Project
+                project={mern}
               ></Project>
               <Project
                 project={html}
